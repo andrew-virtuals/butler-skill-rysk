@@ -1,4 +1,19 @@
-# butler-skill-rysk
+# butler-skill-rysk — moved
+
+> **This skill is deprecated. Rysk is now a venue inside `options-trading`**, in
+> [`butler-skill-yield-notes`](https://github.com/mamamatcha/butler-skill-yield-notes)
+> (options-trading 2.7.0, `--venue rysk`, `references/rysk.md`), so an owner installs one
+> skill for Derive, Paradex and Rysk. The lifecycle duty that watches a Rysk put to
+> expiry is `options-lifecycle@8` there.
+>
+> | | |
+> | --- | --- |
+> | Registry | never listed; nothing installs it |
+> | Last version here | 0.1.0 (a 0.2.0 was folded into options-trading instead of released) |
+> | Server side | `acp options … --venue rysk` |
+>
+> Open issues and changes against the new location. This repo is kept read-only so its
+> history stays resolvable.
 
 The `rysk` skill for [Butler](https://github.com/Virtual-Protocol/butler-skills).
 For the humans maintaining this repo — never published to a butler. Only `SKILL.md`
